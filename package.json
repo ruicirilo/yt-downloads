@@ -1,0 +1,21 @@
+{
+  "name": "youtube-downloads",
+  "version": "1.0.0",
+  "description": "douwnload de mp3 ou mp4 do youtube",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "readline": "^1.3.0",
+    "youtube-dl-exec": "^2.5.8"
+  }
+}
